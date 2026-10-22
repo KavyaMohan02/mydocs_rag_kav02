@@ -23,3 +23,7 @@ eg: frequently = frequentl v
 - Tables and figures: No figures and tables
 - References section: it is  in the same order
 
+## G.O.16_0.pdf (scanned, Tamil, 7 pages) - OCR with Gemini
+- Checked pages 1, 4 and 7 against the PDF: Tamil text matches
+- All table content present, but table layout not exact
+- Plan: keep tables together when chunking 
