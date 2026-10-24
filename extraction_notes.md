@@ -27,3 +27,14 @@ eg: frequently = frequentl v
 - Checked pages 1, 4 and 7 against the PDF: Tamil text matches
 - All table content present, but table layout not exact
 - Plan: keep tables together when chunking 
+
+## G.O.56.pdf (scanned, English and Tamil, 14 pages) - OCR with Gemini
+- Checked 3 pages against the PDF: English text correct, Tamil text complete
+- 5 numbers checked (G.O. number, date, amount): all correct
+- [illegible] count: 0
+- Tables: all content present, layout not exact
+
+## Limitations found
+- Gemini blocked a screenshot of a widely published document (RECITATION filter)
+- Free-tier quota stopped the run several times; per-page caching made it resumable
+- Used Gemini for OCR instead of Mistral; Mistral can be compared later
